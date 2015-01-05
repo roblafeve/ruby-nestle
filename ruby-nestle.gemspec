@@ -12,8 +12,7 @@ Gem::Specification.new do |s|
   s.has_rdoc = false
 
   # Gem files
-  s.files = %w(README.md)
-  s.files += Dir.glob("lib/**/*.*")
+  s.files = ["lib/ruby-nestle.rb", "lib/nestle/index.styl", "README.md"]
 
   # Gem Dependencies
   s.add_dependency("stylus")
