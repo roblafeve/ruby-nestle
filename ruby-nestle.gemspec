@@ -16,5 +16,5 @@ Gem::Specification.new do |s|
   s.files += Dir.glob("lib/**/*.*")
 
   # Gem Dependencies
-  s.add_dependency("ruby-stylus", [">= 1.0.0"])
+  s.add_dependency("ruby-stylus", [">= 1.0.1"])
 end
